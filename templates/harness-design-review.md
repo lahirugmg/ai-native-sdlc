@@ -1,6 +1,6 @@
 # Harness Design Review
 
-Use this template before implementing or materially expanding a Phase 3 harness. It makes the task contract, action boundaries, evaluation, operations, and decision rights reviewable.
+Use this template before implementing or materially expanding a long-term harness. It makes the task contract, action boundaries, evaluation, operations, and decision rights reviewable.
 
 ## Ownership and Scope
 
@@ -69,4 +69,4 @@ Use this template before implementing or materially expanding a Phase 3 harness.
 | Security, privacy, or risk owner |  |  |  |
 | Operations or support owner |  |  |  |
 
-[Phase 3 playbook](../docs/phase-3-harness-engineering.md) | [Governance and risk](../docs/governance-and-risk.md)
+[Long-term playbook](../docs/long-term-harness-engineering.md) | [Governance and risk](../docs/governance-and-risk.md)

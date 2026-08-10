@@ -1,14 +1,14 @@
-# Phase 1: Simple AI Integration
+# Short Term: Simple AI Integration
 
 ## Outcome
 
-Phase 1 makes AI assistance an intentional, safe, and useful part of everyday software work. The aim is not universal use or maximum generated code. The aim is for people to know which tasks benefit from assistance, how to provide a good task brief, how to protect organizational information, and how to verify the result.
+The short-term horizon makes AI assistance an intentional, safe, and useful part of everyday software work. The aim is not universal use or maximum generated code. The aim is for people to know which tasks benefit from assistance, how to provide a good task brief, how to protect organizational information, and how to verify the result.
 
-By the end of this phase, a pilot team should be able to repeat a small set of AI-assisted practices in ordinary delivery work without weakening code review, testing, security, or ownership.
+By the end of this horizon, a pilot team should be able to repeat a small set of AI-assisted practices in ordinary delivery work without weakening code review, testing, security, or ownership.
 
 ## What Changes
 
-| Before | In Phase 1 |
+| Before | In the short term |
 | --- | --- |
 | AI use is ad hoc, hidden, or prohibited by uncertainty. | Approved tools and data boundaries are clear, and people can ask for help without guessing. |
 | A good prompt is treated as a clever phrase. | A useful prompt is a concise task brief with context, constraints, and verification expectations. |
@@ -25,7 +25,7 @@ Start with one or two volunteer teams and a few work types that are frequent, bo
 - Identifying refactoring options or edge cases for a human decision.
 - Preparing code-review questions, acceptance criteria, or incident timelines.
 
-Defer workflows that allow an AI system to change production, access secrets, make authorization decisions, handle sensitive data beyond approved boundaries, or merge changes without established controls. Those may become candidates in later phases after the organization has reliable context and a harness.
+Defer workflows that allow an AI system to change production, access secrets, make authorization decisions, handle sensitive data beyond approved boundaries, or merge changes without established controls. Those may become candidates in later horizons after the organization has reliable context and a harness.
 
 Choose pilot work that represents normal delivery. A polished demonstration can show capability, but it cannot establish cost, review burden, quality, or adoption fit.
 
@@ -139,7 +139,7 @@ Use the data to learn, not to rank individuals. Individual activity counts such 
 
 ## Exit Criteria
 
-Consider a team ready to invest in Phase 2 when it can demonstrate all of the following:
+Consider a team ready to invest in the medium term when it can demonstrate all of the following:
 
 - Participants use approved tools and can explain applicable data and review boundaries.
 - A few AI-assisted practices are embedded in real work and produce evidence of value or clear limits.
@@ -147,10 +147,10 @@ Consider a team ready to invest in Phase 2 when it can demonstrate all of the fo
 - Leads can distinguish adoption noise from a real workflow improvement.
 - The dominant constraint is now finding, trusting, and supplying relevant organizational context.
 
-If the team cannot meet these conditions, continue Phase 1 with a narrower scope. More automation will not repair missing fluency, unclear guardrails, or weak engineering discipline.
+If the team cannot meet these conditions, continue short-term work with a narrower scope. More automation will not repair missing fluency, unclear guardrails, or weak engineering discipline.
 
 ## Next Step
 
-When participants repeatedly need current architecture, codebase, policy, product, or operational knowledge that is scattered or hard to trust, move to [Phase 2: Context engineering](phase-2-context-engineering.md).
+When participants repeatedly need current architecture, codebase, policy, product, or operational knowledge that is scattered or hard to trust, move to [Medium term: Context engineering](medium-term-context-engineering.md).
 
-[Back to the adoption model](adoption-model.md)
+[Back to the journey](journey-to-ai-assisted-sdlc.md)

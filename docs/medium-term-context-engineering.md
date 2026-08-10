@@ -1,10 +1,10 @@
-# Phase 2: Context Engineering
+# Medium Term: Context Engineering
 
 ## Outcome
 
-Phase 2 makes AI assistance more reliable by treating organizational knowledge as a product. The objective is not to give a model every document and repository. It is to supply the smallest set of authoritative, current, authorized, task-relevant context that helps a person or system perform work correctly.
+The medium-term horizon makes AI assistance more reliable by treating organizational knowledge as a product. The objective is not to give a model every document and repository. It is to supply the smallest set of authoritative, current, authorized, task-relevant context that helps a person or system perform work correctly.
 
-At the end of this phase, teams can identify the context a workflow needs, trace it to an owner and source, deliver it consistently, and measure whether grounding actually improves the work.
+At the end of this horizon, teams can identify the context a workflow needs, trace it to an owner and source, deliver it consistently, and measure whether grounding actually improves the work.
 
 ## What Context Engineering Means
 
@@ -24,7 +24,7 @@ Context is more than prose. It can include source code, dependency and interface
 
 ## Start With a Workflow, Not a Knowledge Dump
 
-Select one Phase 1 workflow whose results are limited by missing, inconsistent, or hard-to-find knowledge. Examples include:
+Select one short-term workflow whose results are limited by missing, inconsistent, or hard-to-find knowledge. Examples include:
 
 - An engineer needs architecture and repository conventions to make a change safely.
 - A reviewer needs current acceptance criteria, standards, and related change history.
@@ -104,7 +104,7 @@ Context quality is a shared concern. The owner of a source is responsible for it
 
 Use a narrow improvement loop:
 
-1. Pick one recurring task with a clear Phase 1 baseline.
+1. Pick one recurring task with a clear short-term baseline.
 2. Create its context map and identify the one or two most valuable gaps.
 3. Build a small context product or delivery path with named ownership.
 4. Test it on representative tasks, including ambiguous and failure cases.
@@ -128,7 +128,7 @@ Use a small evaluation set containing normal cases, edge cases, incomplete-conte
 
 ## Operating Responsibilities
 
-| Role | Responsibility in Phase 2 |
+| Role | Responsibility in the medium term |
 | --- | --- |
 | Workflow owner | Defines the decision, success criteria, exceptions, and verification required. |
 | Source owner | Maintains content accuracy, access rules, and lifecycle information for a source of truth. |
@@ -140,7 +140,7 @@ Do not create a central context team that silently owns every team's knowledge. 
 
 ## Exit Criteria
 
-Prepare a workflow for Phase 3 only when it has:
+Prepare a workflow for the long term only when it has:
 
 - A repeatable task with clear inputs, outputs, exceptions, and a human accountable for the result.
 - A context map that identifies trusted sources, owners, freshness expectations, and access boundaries.
@@ -150,6 +150,6 @@ Prepare a workflow for Phase 3 only when it has:
 
 If a workflow still relies on heroic prompt writing or manual copying of uncertain information, improve its context before attempting a harness.
 
-[Continue to Phase 3: Harness engineering](phase-3-harness-engineering.md)
+[Continue to Long term: Harness engineering](long-term-harness-engineering.md)
 
-[Back to Phase 1](phase-1-simple-ai-integration.md) | [Back to the adoption model](adoption-model.md)
+[Back to Short term](short-term-simple-ai-integration.md) | [Back to the journey](journey-to-ai-assisted-sdlc.md)

@@ -52,7 +52,7 @@ Do not average the ratings into a single maturity number. A strong tool platform
 | The tool fits the selected work without requiring unplanned integrations. | Small proof of fit using approved representative material. |
 | Participants know the approved path and what to do when it fails. | Onboarding guide, support channel, manual fallback. |
 
-**Phase 1 requires rating 2.** A high-integrity pilot can use a small manual setup; do not block it on a full internal platform.
+**Short-term work requires rating 2.** A high-integrity pilot can use a small manual setup; do not block it on a full internal platform.
 
 ### 4. Data, Privacy, Security, and Legal Boundaries
 
@@ -63,7 +63,7 @@ Do not average the ratings into a single maturity number. A strong tool platform
 | A route exists for privacy, security, legal, procurement, or records questions. | Named contacts and escalation expectations. |
 | Incidents can be reported and contained. | Existing incident route or a pilot-specific contact. |
 
-**Phase 1 requires rating 2.** If this area is at 0 or 1, use non-sensitive or synthetic examples only until a decision owner clarifies the boundary.
+**Short-term work requires rating 2.** If this area is at 0 or 1, use non-sensitive or synthetic examples only until a decision owner clarifies the boundary.
 
 ### 5. Delivery, Quality, and Measurement Baseline
 
@@ -74,7 +74,7 @@ Do not average the ratings into a single maturity number. A strong tool platform
 | Feedback and failure evidence can be captured without excessive burden. | Short survey, examples, review findings, incident and support data. |
 | The pilot has a comparison period or representative sample. | Defined baseline window or matched task set. |
 
-**Phase 1 requires rating 1, aiming for 2.** Improve measurement during the pilot, but do not claim value without a baseline.
+**Short-term work requires rating 1, aiming for 2.** Improve measurement during the pilot, but do not claim value without a baseline.
 
 ### 6. Knowledge and Context
 
@@ -85,7 +85,7 @@ Do not average the ratings into a single maturity number. A strong tool platform
 | Known contradictions, stale sources, and access gaps are visible. | Context map or backlog of knowledge gaps. |
 | The team can test whether a response used the right source. | Source links, citations, peer review, task-specific checks. |
 
-**Phase 2 requires rating 2.** A Phase 1 pilot can begin with limited context, but recurring missing knowledge is a signal to invest here.
+**Medium-term work requires rating 2.** A short-term experiment can begin with limited context, but recurring missing knowledge is a signal to invest here.
 
 ### 7. Engineering and Operational Capability
 
@@ -96,7 +96,7 @@ Do not average the ratings into a single maturity number. A strong tool platform
 | The organization can test, deploy, monitor, and roll back automation. | CI/CD, logging, alerting, on-call or support owner, manual fallback. |
 | The team can evaluate a change before allowing side effects. | Evaluation cases, test environment, approval design. |
 
-**Phase 3 requires rating 2 or higher.** Do not build a harness around a workflow that cannot be described, tested, supported, or rolled back.
+**Long-term work requires rating 2 or higher.** Do not build a harness around a workflow that cannot be described, tested, supported, or rolled back.
 
 ## Readiness Decision
 
@@ -104,10 +104,10 @@ Use the evidence to make one of four decisions:
 
 | Decision | When it fits | Next action |
 | --- | --- | --- |
-| Start a bounded Phase 1 pilot | Core ownership, tool, data boundary, and review practices are usable. | Write a [pilot charter](../templates/pilot-charter.md) and run guided enablement on real work. |
-| Start Phase 1 with constraints | The team is ready, but one boundary remains uncertain. | Narrow inputs, use synthetic material, or limit the tool until the decision is resolved. |
+| Start a bounded short-term experiment | Core ownership, tool, data boundary, and review practices are usable. | Write a [pilot charter](../templates/pilot-charter.md) and run guided enablement on real work. |
+| Start short-term work with constraints | The team is ready, but one boundary remains uncertain. | Narrow inputs, use synthetic material, or limit the tool until the decision is resolved. |
 | Invest in a foundation first | Ownership, data boundaries, or basic delivery controls are too weak. | Resolve the specific gap with its accountable owner; do not substitute training for a missing control. |
-| Prepare a Phase 2 or 3 candidate | A Phase 1 practice is proven and context or harness readiness is demonstrably sufficient. | Create a context map or task contract and evaluation plan. |
+| Prepare a medium- or long-term candidate | A short-term practice is proven and context or harness readiness is demonstrably sufficient. | Create a context map or task contract and evaluation plan. |
 
 ## Evidence Record
 
@@ -118,7 +118,7 @@ Capture the following on one page for each proposed pilot:
 | Pilot and workflow |  |
 | Sponsor and accountable owner |  |
 | Participants and affected stakeholders |  |
-| Phase being considered |  |
+| Journey horizon being considered |  |
 | Readiness ratings by area |  |
 | Evidence and assumptions |  |
 | Known gaps and mitigation |  |
@@ -126,4 +126,4 @@ Capture the following on one page for each proposed pilot:
 | Success, safety, and stop conditions |  |
 | Decision and review date |  |
 
-[Back to the repository overview](../README.md) | [Read the adoption model](../docs/adoption-model.md)
+[Back to the repository overview](../README.md) | [Read the journey](../docs/journey-to-ai-assisted-sdlc.md)

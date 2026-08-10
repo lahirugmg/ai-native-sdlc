@@ -60,4 +60,4 @@ Use this template for one recurring AI-assisted workflow. The map should point t
 | Open gaps and owner |  |
 | Next review date |  |
 
-[Phase 2 playbook](../docs/phase-2-context-engineering.md)
+[Medium-term playbook](../docs/medium-term-context-engineering.md)

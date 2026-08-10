@@ -1,6 +1,6 @@
 # AI Workflow Evaluation Record
 
-Use this record to establish a baseline, compare a changed workflow, and preserve regressions. One record can describe a Phase 1 practice, a Phase 2 context product, or a Phase 3 harness.
+Use this record to establish a baseline, compare a changed workflow, and preserve regressions. One record can describe a short-term practice, a medium-term context product, or a long-term harness.
 
 ## Evaluation Identity
 
@@ -55,4 +55,4 @@ Use this record to establish a baseline, compare a changed workflow, and preserv
 
 Avoid treating aggregate model scores as the whole answer. Preserve representative failures, human review notes, and the task-specific rationale behind the decision.
 
-[Phase 3 playbook](../docs/phase-3-harness-engineering.md)
+[Long-term playbook](../docs/long-term-harness-engineering.md)

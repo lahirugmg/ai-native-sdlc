@@ -28,7 +28,7 @@ AI-assisted SDLC work crosses existing responsibilities. Name a decision owner f
 | Workflow quality and human review | Workflow owner | Engineers, QA, security, operations | Task contract, test or evaluation evidence, escalation process |
 | Consequential action and exceptions | Business or risk owner | Control owners, legal, compliance | Impact analysis, approval path, auditability, rollback or remediation |
 
-For low-risk Phase 1 work, publish guardrails and allow local teams to proceed. For higher-risk integrations or actions, use a documented review that is predictable, time-bounded, and appropriate to the impact.
+For low-risk short-term work, publish guardrails and allow local teams to proceed. For higher-risk integrations or actions, use a documented review that is predictable, time-bounded, and appropriate to the impact.
 
 ## Risk-Tiered Controls
 
@@ -45,7 +45,7 @@ The same capability may sit in different tiers depending on the data, integratio
 
 ## Minimum Guardrails for Early Adoption
 
-Before broad Phase 1 use, make these rules and routes clear:
+Before broad short-term use, make these rules and routes clear:
 
 - Which AI services, account types, extensions, and integrations are approved for which work.
 - What data may be entered, uploaded, retained, or connected, including code, secrets, customer data, internal documents, logs, and regulated information.
@@ -72,7 +72,7 @@ Do not rely on a prompt instruction such as "do not retain this" as a data contr
 
 ## Secure Harness Design
 
-Phase 3 work introduces integration and action risk. Require engineering controls at the boundary:
+Long-term harness work introduces integration and action risk. Require engineering controls at the boundary:
 
 - Enforce authentication and authorization outside the model, using service identities with least privilege.
 - Validate inputs, tool responses, and structured output before they drive downstream actions.
@@ -94,7 +94,7 @@ Changes to a model, prompt, context source, retrieval behavior, tool permission,
 4. Approve, deploy progressively, monitor, and retain a rollback path.
 5. Record outcomes and update documentation, known limitations, and evaluation sets.
 
-For simple Phase 1 tools, this may be a short review of updated vendor settings and guidance. For a consequential harness, it should integrate with established software change management and risk controls.
+For simple short-term tools, this may be a short review of updated vendor settings and guidance. For a consequential harness, it should integrate with established software change management and risk controls.
 
 ## Incident and Exception Handling
 
@@ -122,4 +122,4 @@ Monitor whether governance enables good work as well as whether it catches probl
 
 Review these signals with the adoption portfolio. Good governance is visible when teams can move quickly within clear limits and higher-risk work receives the attention it actually needs.
 
-[Back to the adoption model](adoption-model.md)
+[Back to the journey](journey-to-ai-assisted-sdlc.md)

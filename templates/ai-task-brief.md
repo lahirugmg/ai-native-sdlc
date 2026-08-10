@@ -63,4 +63,4 @@ State what must not be assumed, changed, exposed, or invented. For uncertain wor
 | Outcome and value observed |  |
 | Failure modes, risks, or follow-up |  |
 
-[Phase 1 playbook](../docs/phase-1-simple-ai-integration.md)
+[Short-term playbook](../docs/short-term-simple-ai-integration.md)

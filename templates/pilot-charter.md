@@ -1,4 +1,4 @@
-# AI-Assisted SDLC Pilot Charter
+# AI-Assisted SDLC Experiment Charter
 
 Use this charter to frame a small, evidence-gated pilot. Keep it to one or two pages and update it when a material assumption changes.
 
@@ -7,7 +7,7 @@ Use this charter to frame a small, evidence-gated pilot. Keep it to one or two p
 | Field | Record |
 | --- | --- |
 | Pilot name |  |
-| Target phase | Phase 1, Phase 2, or Phase 3 |
+| Journey horizon | Short term, medium term, or long term |
 | Sponsor |  |
 | Accountable pilot owner |  |
 | Participating team and roles |  |
@@ -69,4 +69,4 @@ Avoid using individual prompt counts, generated-line counts, or raw activity as 
 | What context, tooling, training, or policy gap was exposed? |  |
 | Decision, owner, and next review date |  |
 
-[Adoption readiness assessment](../assessments/adoption-readiness.md) | [Phase 1 playbook](../docs/phase-1-simple-ai-integration.md)
+[Adoption readiness assessment](../assessments/adoption-readiness.md) | [Short-term playbook](../docs/short-term-simple-ai-integration.md)

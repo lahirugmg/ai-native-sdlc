@@ -1,8 +1,8 @@
-# Phase 3: Harness Engineering
+# Long Term: Harness Engineering
 
 ## Outcome
 
-Phase 3 turns a proven AI-assisted workflow into an operable capability. A harness is the software, process, and controls around an AI capability that make a specific task repeatable, observable, and safe enough to use at scale.
+The long-term horizon turns a proven AI-assisted workflow into an operable capability. A harness is the software, process, and controls around an AI capability that make a specific task repeatable, observable, and safe enough to use at scale.
 
 The objective is not maximum autonomy. The objective is a workflow that produces useful results under known conditions, detects when those conditions do not hold, and hands decisions back to accountable people or systems.
 
@@ -26,7 +26,7 @@ A model call by itself is not a harness. Nor is a chat prompt copied between peo
 
 ## Qualify the Workflow First
 
-Build a harness only for work that has earned it through Phases 1 and 2. A good candidate has:
+Build a harness only for work that has earned it through short-term fluency and medium-term trusted context. A good candidate has:
 
 - A clear and recurring outcome, such as drafting a change plan, triaging a well-defined class of issue, preparing test cases, or checking a pull request against explicit standards.
 - Inputs, outputs, constraints, and exceptions that can be described without relying on hidden expert intuition alone.
@@ -160,6 +160,6 @@ Scale a harness beyond its initial team when it demonstrates:
 - Measured value in the surrounding SDLC, not merely a high count of generated artifacts.
 - A documented change process and owners who can operate the capability over time.
 
-Phase 3 does not end the adoption journey. It establishes a repeatable way to build, evaluate, operate, and retire AI-enabled SDLC capabilities as organizational needs and technology evolve.
+The long term does not end the journey. It establishes a repeatable way to build, evaluate, operate, and retire AI-enabled SDLC capabilities as organizational needs and technology evolve.
 
-[Back to Phase 2](phase-2-context-engineering.md) | [Back to the adoption model](adoption-model.md)
+[Back to Medium term](medium-term-context-engineering.md) | [Back to the journey](journey-to-ai-assisted-sdlc.md)

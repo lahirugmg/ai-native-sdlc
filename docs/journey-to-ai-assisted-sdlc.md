@@ -1,25 +1,25 @@
-# Adoption Model
+# Journey to AI-Assisted SDLC
 
 ## Purpose
 
-The adoption model helps a software organization increase AI assistance without creating an uncontrolled collection of tools, prompts, and one-off automations. Each phase adds a capability that depends on the previous one:
+This journey helps a software organization increase AI assistance without creating an uncontrolled collection of tools, prompts, and one-off automations. Each horizon adds a capability that builds on what the organization has learned before:
 
 ```mermaid
 flowchart LR
-    R[Readiness and baseline] --> P1[Phase 1: Simple AI integration]
-    P1 --> P2[Phase 2: Context engineering]
-    P2 --> P3[Phase 3: Harness engineering]
-    P1 --> E[Measure and learn]
-    P2 --> E
-    P3 --> E
+    R[Readiness and baseline] --> S[Short term: Simple AI integration]
+    S --> M[Medium term: Context engineering]
+    M --> L[Long term: Harness engineering]
+    S --> E[Measure and learn]
+    M --> E
+    L --> E
     E --> R
 ```
 
-The model is deliberately evidence-gated. A team may progress faster or slower than another team, and an organization should not declare itself "in Phase 3" based on a single advanced pilot.
+The journey is deliberately evidence-gated, but it is not a single organizational timeline. A team may move faster or slower than another team, and an organization should not claim to be in the long term because one advanced pilot exists.
 
 ## Operating Cycle
 
-Use the same operating cycle at every phase:
+Use the same operating cycle at every horizon:
 
 1. Select a bounded, valuable workflow and a willing team.
 2. Record a baseline for delivery, quality, developer experience, and relevant risks.
@@ -30,9 +30,9 @@ Use the same operating cycle at every phase:
 
 This cycle turns adoption into a portfolio of controlled experiments. It avoids both extremes: waiting for a perfect enterprise strategy and scaling an appealing demo before its risks and value are understood.
 
-## The Phases
+## The Journey Horizons
 
-| Capability | [Phase 1: Simple AI integration](phase-1-simple-ai-integration.md) | [Phase 2: Context engineering](phase-2-context-engineering.md) | [Phase 3: Harness engineering](phase-3-harness-engineering.md) |
+| Capability | [Short term: Simple AI integration](short-term-simple-ai-integration.md) | [Medium term: Context engineering](medium-term-context-engineering.md) | [Long term: Harness engineering](long-term-harness-engineering.md) |
 | --- | --- | --- | --- |
 | Primary question | Can people use AI assistance safely and effectively in their everyday work? | Can assistance use reliable, relevant organizational context? | Can proven AI-enabled workflows operate repeatedly with controls and evaluation? |
 | Unit of change | Individual and team habits | Shared knowledge and context products | End-to-end workflow and platform capability |
@@ -40,9 +40,9 @@ This cycle turns adoption into a portfolio of controlled experiments. It avoids 
 | Main failure mode | Unreviewed output and uneven skill | Stale, excessive, or untrusted context | Automating an unreliable workflow without evaluation or accountability |
 | Evidence to advance | Consistent use, retained accountability, no unacceptable risk, useful measured outcomes | Context is owned, current, accessible, and demonstrably improves task quality | Repeatable results, defined controls, evaluations, operational ownership, and rollback paths |
 
-## Readiness Before Phase 1
+## Readiness Before the Short Term
 
-Readiness is not a separate transformation phase. It is the minimum foundation for a responsible pilot:
+Readiness is not a separate transformation program. It is the minimum foundation for a responsible pilot:
 
 - A senior sponsor can remove organizational blockers and accept the pilot's decisions.
 - An adoption lead coordinates learning, measurement, and communication.
@@ -53,31 +53,31 @@ Readiness is not a separate transformation phase. It is the minimum foundation f
 
 If one of these conditions is missing, reduce the pilot's scope or resolve the gap before onboarding more teams.
 
-## Progression Gates
+## Journey Gates
 
 Advancement is a decision made with evidence, not a calendar event.
 
-### Enter Phase 1
+### Start in the Short Term
 
 - The pilot has a documented objective, owner, boundaries, and stopping conditions.
 - Participants know approved tools, data-handling rules, and their review responsibilities.
 - The team has a lightweight baseline and a way to capture feedback and incidents.
 
-### Advance to Phase 2
+### Move Into the Medium Term
 
-- Participants use the Phase 1 practices on real work rather than only in training.
+- Participants use short-term practices on real work rather than only in training.
 - The organization has examples of useful workflows and known limitations.
 - Review, security, and quality controls still catch issues at an acceptable rate.
 - The next constraint is lack of reliable context, not lack of basic skill or tool access.
 
-### Advance to Phase 3
+### Move Into the Long Term
 
 - Important context has an owner, a freshness expectation, access rules, and a retrieval or delivery mechanism.
 - Teams can demonstrate that grounded assistance improves relevant work without degrading quality or security.
 - Candidate workflows are repeatable enough to define inputs, outputs, success criteria, and exceptions.
 - Platform and security owners can support the required integrations and controls.
 
-### Scale a Harness
+### Scale a Long-Term Harness
 
 - The harness has an accountable product and operational owner.
 - It has task-level evaluations, quality and safety checks, auditability, and a way to stop or roll back automation.
@@ -112,8 +112,8 @@ No role delegates accountability to an AI system. The point of the model is to c
 
 ## Portfolio View
 
-Run a small number of pilots across different work types, such as feature delivery, maintenance, testing, incident response, and documentation. Give each pilot an explicit phase, owner, hypothesis, and evidence record. A central adoption group should consolidate lessons and reusable assets, while teams retain the autonomy to decide whether a workflow fits their local context.
+Run a small number of experiments across different work types, such as feature delivery, maintenance, testing, incident response, and documentation. Give each experiment an explicit horizon, owner, hypothesis, and evidence record. A central adoption group should consolidate lessons and reusable assets, while teams retain the autonomy to decide whether a workflow fits their local context.
 
-The desired outcome is a capability ladder: individual fluency first, shared trusted context second, and operable workflow harnesses last.
+The desired outcome is a journey portfolio: individual fluency where it helps, trusted context where it is needed, and operable workflow harnesses where they create durable value.
 
-[Back to the repository overview](../README.md)
+[Find your organization's path](finding-your-path.md) | [Back to the repository overview](../README.md)
