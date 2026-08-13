@@ -15,7 +15,7 @@ Use this template for a bounded task where AI assistance may be useful. It is a 
 ## Relevant Context
 
 | Context | Source or location | Why it matters | Approved to share or connect? |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | Requirements or acceptance criteria |  |  |  |
 | Code, interfaces, or architecture |  |  |  |
 | Standards, policies, or constraints |  |  |  |

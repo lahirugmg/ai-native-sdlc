@@ -46,12 +46,38 @@ The repository contains journey guides, governance guidance, readiness assessmen
 
 ### Reusable Templates
 
+Each template is blank by design. [Worked examples](examples/) shows every one of them
+filled in.
+
 - [AI task brief](templates/ai-task-brief.md): a prompt-engineering aid for bounded, verifiable work.
 - [Pilot charter](templates/pilot-charter.md): hypothesis, boundaries, measures, and decision record for a short-term experiment.
 - [Context map](templates/context-map.md): ownership, freshness, access, and delivery design for medium-term knowledge work.
 - [Harness design review](templates/harness-design-review.md): task contract, controls, operations, and approvals for a long-term harness.
 - [SDLC opportunity map](templates/sdlc-opportunity-map.md): map one real flow of work and select a safe next opportunity.
 - [Evaluation record](templates/evaluation-record.md): a repeatable evidence record for AI-assisted workflows and harnesses.
+
+### Worked Examples
+
+[examples/](examples/) follows one fictional organization through all three horizons. The
+artifacts chain: an opportunity map selects a pilot, the pilot's review relocates the
+constraint to context, the context work qualifies a workflow for a harness, and the
+harness fails its first gate for reasons its evaluation set could not have predicted.
+
+Two results are deliberately negative, because those are the shapes teams most need to
+recognize: a pilot whose headline metric barely moves but which succeeds by locating the
+real constraint, and a harness that passes its curated evaluation and fails on live traffic.
+
+### Putting It Into Practice
+
+The horizon guides name no vendor. These documents show one concrete instantiation.
+
+- [Reference implementation: Claude Code](docs/claude-code-reference-implementation.md): how the three horizons map onto repository instructions, skills, agents, settings, and evaluation sets — and where the analogy breaks.
+- [Adopting an external skill library](docs/skill-library-integration.md): evaluating, scoping, and converting a third-party agent or skill library, with [tools/install-skills.py](tools/install-skills.py) as working tooling.
+
+This repository is itself set up this way. [CLAUDE.md](CLAUDE.md) is a worked repository-instructions
+context product, [.claude/skills/](.claude/skills/) holds five skills that operate the
+templates above, and [.claude/agents/](.claude/agents/) holds a read-only reviewer that
+audits horizon claims against the journey gates.
 
 ## Contributing
 
