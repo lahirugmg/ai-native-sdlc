@@ -4,6 +4,8 @@ A practical, organization-led guide for helping a software organization, or a Co
 
 This repository is about changing how work moves through the SDLC, not merely selecting an AI product. It offers three horizons that help an organization find its own path: build fluency first, make context trustworthy where it matters, and engineer harnesses only for workflows that have earned the investment.
 
+**A note on the name.** An *AI-native SDLC* is the destination: a lifecycle where assistance is part of how work moves rather than a tool individuals reach for. *AI-assisted work* is what happens at every horizon along the way, including the last one. The distinction matters because advancement here is gated on evidence, and describing a practice as AI-native asserts a position that no evidence has established. The [journey guide](docs/journey-to-ai-native-sdlc.md#an-ai-native-sdlc-is-the-destination-not-the-starting-position) defines both terms.
+
 ## Start Here
 
 1. Use [finding your organization's path](docs/finding-your-path.md) to map the work, ownership, handoffs, and friction that matter locally.
