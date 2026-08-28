@@ -1,4 +1,4 @@
-# Journey to AI-Assisted SDLC
+# Journey to AI-Native SDLC
 
 ## Purpose
 
@@ -16,6 +16,19 @@ flowchart LR
 ```
 
 The journey is deliberately evidence-gated, but it is not a single organizational timeline. A team may move faster or slower than another team, and an organization should not claim to be in the long term because one advanced pilot exists.
+
+## An AI-Native SDLC Is the Destination, Not the Starting Position
+
+An AI-native SDLC is one where assistance is part of how work moves through the lifecycle rather than a tool individuals reach for: context is owned and current, workflows are described well enough to evaluate, and controls hold without depending on anyone remembering them. This guide is named for that destination. It does not assume an organization has arrived there.
+
+Two words carry that distinction throughout this repository, and they are not interchangeable:
+
+| Term | Refers to | Example |
+| --- | --- | --- |
+| AI-native SDLC | The destination: a lifecycle restructured around assisted work, with the conditions above met | The model this journey describes |
+| AI-assisted work | The activity at any horizon, including the first one | A pilot drafting tests, a grounded change workflow, an evaluated harness |
+
+Work at every horizon is AI-assisted. The SDLC becomes AI-native only when the gates below have been passed on evidence. Naming a practice "AI-native" before that point asserts an advancement that has not been demonstrated, which is the substitution these gates exist to reject.
 
 ## Operating Cycle
 

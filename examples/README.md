@@ -72,4 +72,4 @@ not the success story:
   cannot merge, approve, or modify code. That is the constrained-action stage, not the end
   state, and the design review records what would have to be true to go further.
 
-[Templates](../templates/) | [Journey guide](../docs/journey-to-ai-assisted-sdlc.md) | [Back to the repository overview](../README.md)
+[Templates](../templates/) | [Journey guide](../docs/journey-to-ai-native-sdlc.md) | [Back to the repository overview](../README.md)

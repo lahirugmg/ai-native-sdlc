@@ -57,4 +57,4 @@ constraint: engineers repeatedly needed architecture and convention facts that t
 repository did not hold reliably. The map's second candidate was promoted, and the squad
 moved to medium-term work. See [context map](../02-context-engineering/context-map.md).
 
-[Finding your organization's path](../../docs/finding-your-path.md) | [Journey to AI-Assisted SDLC](../../docs/journey-to-ai-assisted-sdlc.md)
+[Finding your organization's path](../../docs/finding-your-path.md) | [Journey to AI-Native SDLC](../../docs/journey-to-ai-native-sdlc.md)

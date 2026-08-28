@@ -152,4 +152,4 @@ If a workflow still relies on heroic prompt writing or manual copying of uncerta
 
 [Continue to Long term: Harness engineering](long-term-harness-engineering.md)
 
-[Back to Short term](short-term-simple-ai-integration.md) | [Back to the journey](journey-to-ai-assisted-sdlc.md)
+[Back to Short term](short-term-simple-ai-integration.md) | [Back to the journey](journey-to-ai-native-sdlc.md)

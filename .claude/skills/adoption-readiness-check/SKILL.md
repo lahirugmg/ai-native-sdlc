@@ -92,4 +92,4 @@ The evidence record, with per-area ratings and evidence. Then:
 - [ ] The data boundary is stated in terms a participant can apply.
 - [ ] The decision follows from the ratings rather than from the team's preference.
 
-[Assessment](../../../assessments/adoption-readiness.md) | [Worked example](../../../examples/00-start/adoption-readiness.md) | [Journey guide](../../../docs/journey-to-ai-assisted-sdlc.md)
+[Assessment](../../../assessments/adoption-readiness.md) | [Worked example](../../../examples/00-start/adoption-readiness.md) | [Journey guide](../../../docs/journey-to-ai-native-sdlc.md)

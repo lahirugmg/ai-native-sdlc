@@ -43,4 +43,4 @@ than run in parallel. Training would not have closed either gap: area 6 needs ow
 current sources, and area 7 needs a described, testable workflow. Both are engineering and
 ownership work, not enablement work.
 
-[Back to the repository overview](../../README.md) | [Read the journey](../../docs/journey-to-ai-assisted-sdlc.md)
+[Back to the repository overview](../../README.md) | [Read the journey](../../docs/journey-to-ai-native-sdlc.md)

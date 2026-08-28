@@ -159,4 +159,4 @@ Teams commonly start at 3 or 4 because those artifacts are the most visible and 
 satisfying to build. The result is a well-organized library that encodes procedures nobody
 validated, running against context nobody owns.
 
-[Journey guide](journey-to-ai-assisted-sdlc.md) | [Worked examples](../examples/) | [Skill library integration](skill-library-integration.md)
+[Journey guide](journey-to-ai-native-sdlc.md) | [Worked examples](../examples/) | [Skill library integration](skill-library-integration.md)

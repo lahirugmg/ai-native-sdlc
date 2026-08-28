@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Generate the AI-assisted SDLC big-picture diagram as an Excalidraw scene.
+"""Generate the AI-native SDLC big-picture diagram as an Excalidraw scene.
 
-Output: docs/diagrams/ai-assisted-sdlc-big-picture.excalidraw
+Output: docs/diagrams/ai-native-sdlc-big-picture.excalidraw
 
 The diagram is generated rather than hand-drawn so that its wording stays reviewable
 in a diff and stays consistent with the horizon guides it summarizes:
 
-    docs/journey-to-ai-assisted-sdlc.md      the three horizons and their gates
+    docs/journey-to-ai-native-sdlc.md      the three horizons and their gates
     docs/short-term-simple-ai-integration.md  prompt engineering as task framing
     docs/medium-term-context-engineering.md   context products
     docs/long-term-harness-engineering.md     harness components
@@ -151,7 +151,7 @@ def arrow(x, y, points, stroke=INK, start=None, end=None, dashed=False,
 # --------------------------------------------------------------------------------------
 base("rectangle", 40, 140, 1820, 1070, stroke=RED, bg=RED_BG, strokeStyle="dashed")
 
-label("AI-Assisted SDLC — The Big Picture", 60, 46, size=34, color=INK)
+label("AI-Native SDLC — The Big Picture", 60, 46, size=34, color=INK)
 label(
     "Three horizons of capability, one repeating loop of work, and a governance frame "
     "that encloses both.",
@@ -330,6 +330,6 @@ scene = {
     "files": {},
 }
 
-out = Path(__file__).resolve().parent.parent / "docs" / "diagrams" / "ai-assisted-sdlc-big-picture.excalidraw"
+out = Path(__file__).resolve().parent.parent / "docs" / "diagrams" / "ai-native-sdlc-big-picture.excalidraw"
 out.write_text(json.dumps(scene, indent=2) + "\n", encoding="utf-8")
 print(f"wrote {out} ({len(elements)} elements)")

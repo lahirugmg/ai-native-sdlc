@@ -1,4 +1,4 @@
-# Journey to AI-Assisted SDLC
+# Journey to AI-Native SDLC
 
 A practical, organization-led guide for helping a software organization, or a Corporate IT function that builds software, adopt AI assistance across its software development lifecycle.
 
@@ -7,7 +7,7 @@ This repository is about changing how work moves through the SDLC, not merely se
 ## Start Here
 
 1. Use [finding your organization's path](docs/finding-your-path.md) to map the work, ownership, handoffs, and friction that matter locally.
-2. Read the [journey guide](docs/journey-to-ai-assisted-sdlc.md) and name an accountable sponsor and adoption lead.
+2. Read the [journey guide](docs/journey-to-ai-native-sdlc.md) and name an accountable sponsor and adoption lead.
 3. Establish a baseline for one or two volunteer teams: delivery flow, quality, developer experience, risk posture, and current AI use.
 4. Charter a small short-term experiment around real work with clear measures of success.
 5. Move forward only when evidence shows that the current horizon is repeatable, safe, and useful.
@@ -37,7 +37,7 @@ Engineering leaders, Corporate IT leaders, staff engineers, platform teams, secu
 The repository contains journey guides, governance guidance, readiness assessments, and reusable templates. It deliberately complements agent and prompt libraries by focusing on the organizational conditions required for responsible use.
 
 - [Finding your organization's path](docs/finding-your-path.md): map your SDLC flow, capability ownership, handoffs, friction, and candidate opportunities.
-- [Journey to AI-Assisted SDLC](docs/journey-to-ai-assisted-sdlc.md): the horizon model, evidence gates, measures, and accountabilities.
+- [Journey to AI-Native SDLC](docs/journey-to-ai-native-sdlc.md): the horizon model, evidence gates, measures, and accountabilities.
 - [Short term: Simple AI integration](docs/short-term-simple-ai-integration.md): guided adoption, prompt engineering, and bounded experiments.
 - [Medium term: Context engineering](docs/medium-term-context-engineering.md): trusted, task-relevant knowledge for AI-assisted work.
 - [Long term: Harness engineering](docs/long-term-harness-engineering.md): repeatable AI-enabled workflows with controls and evaluations.

@@ -17,7 +17,7 @@ This guide is an operating framework, not legal advice or a replacement for appl
 
 ## Decision Rights
 
-AI-assisted SDLC work crosses existing responsibilities. Name a decision owner for each area rather than creating an isolated "AI committee" that must approve every prompt.
+AI-native SDLC work crosses existing responsibilities. Name a decision owner for each area rather than creating an isolated "AI committee" that must approve every prompt.
 
 | Decision area | Accountable owner | Typical partners | Evidence needed |
 | --- | --- | --- | --- |
@@ -122,4 +122,4 @@ Monitor whether governance enables good work as well as whether it catches probl
 
 Review these signals with the adoption portfolio. Good governance is visible when teams can move quickly within clear limits and higher-risk work receives the attention it actually needs.
 
-[Back to the journey](journey-to-ai-assisted-sdlc.md)
+[Back to the journey](journey-to-ai-native-sdlc.md)

@@ -15,7 +15,7 @@ product.
 
 The material is organized as three evidence-gated horizons: short term (simple AI
 integration), medium term (context engineering), and long term (harness engineering).
-[docs/journey-to-ai-assisted-sdlc.md](docs/journey-to-ai-assisted-sdlc.md) is the spine —
+[docs/journey-to-ai-native-sdlc.md](docs/journey-to-ai-native-sdlc.md) is the spine —
 read it before making structural changes.
 
 ## What This Repository Is Not
@@ -60,6 +60,12 @@ These are observable in every existing file. Match them.
 - **Mermaid for flow diagrams**, used sparingly and only where sequence or feedback is the
   point.
 - **Relative links between documents**, so the repository reads correctly on any host.
+- **"AI-native" names the destination; "AI-assisted" names the work.** `AI-native` modifies
+  `SDLC` and nothing else — it is the lifecycle this journey leads to. Work at every
+  horizon, including a long-term harness, is `AI-assisted`. The distinction is defined in
+  [the journey guide](docs/journey-to-ai-native-sdlc.md#an-ai-native-sdlc-is-the-destination-not-the-starting-position)
+  and carries invariant 4: calling a practice AI-native asserts an advancement no evidence
+  has established.
 
 ## Invariants
 
@@ -81,7 +87,7 @@ one are the entry gates of the next, and they must stay consistent.
 matching `examples/` horizon directory, link it from the governing horizon guide, and add
 a row to the README's template list.
 
-**Change the journey model.** `docs/journey-to-ai-assisted-sdlc.md` holds the gate
+**Change the journey model.** `docs/journey-to-ai-native-sdlc.md` holds the gate
 definitions. Changing a gate means checking every horizon guide's exit criteria and
 `.claude/agents/evidence-gate-reviewer.md`, which encodes those gates.
 
@@ -102,4 +108,4 @@ There is no build or test suite. Before proposing a change:
 
 ## Related
 
-[README](README.md) | [Journey guide](docs/journey-to-ai-assisted-sdlc.md) | [Reference implementation](docs/claude-code-reference-implementation.md)
+[README](README.md) | [Journey guide](docs/journey-to-ai-native-sdlc.md) | [Reference implementation](docs/claude-code-reference-implementation.md)
