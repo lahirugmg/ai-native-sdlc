@@ -40,6 +40,7 @@ The repository contains journey guides, governance guidance, readiness assessmen
 
 - [Finding your organization's path](docs/finding-your-path.md): map your SDLC flow, capability ownership, handoffs, friction, and candidate opportunities.
 - [Journey to AI-Native SDLC](docs/journey-to-ai-native-sdlc.md): the horizon model, evidence gates, measures, and accountabilities.
+- [Stages and horizons](docs/stages-and-horizons.md): what assistance looks like in each of the six lifecycle stages, at each horizon, and the failure each cell invites.
 - [Short term: Simple AI integration](docs/short-term-simple-ai-integration.md): guided adoption, prompt engineering, and bounded experiments.
 - [Medium term: Context engineering](docs/medium-term-context-engineering.md): trusted, task-relevant knowledge for AI-assisted work.
 - [Long term: Harness engineering](docs/long-term-harness-engineering.md): repeatable AI-enabled workflows with controls and evaluations.

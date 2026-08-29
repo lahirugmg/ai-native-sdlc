@@ -35,6 +35,8 @@ Most software delivery flows need the following capability areas. They may overl
 
 The table is not a waterfall. Security, operations, quality, and documentation should influence work early. A healthy journey makes the necessary loop-back visible: a failed test returns to engineering, a security finding can return to design, and an incident can generate work across requirements, architecture, and implementation.
 
+Six of these areas correspond to a lifecycle stage; security and documentation cross all of them. [Stages and horizons](stages-and-horizons.md) sets out that correspondence and describes what assistance looks like in each stage at each horizon.
+
 ## Find the Friction Worth Solving
 
 For the flow you mapped, mark work that is frequent, bounded, reviewable, and currently costly. Favor the source of friction, not the most impressive demonstration.
