@@ -1,13 +1,15 @@
-# Journey to AI-Assisted SDLC
+# Journey to AI-Native SDLC
 
 A practical, organization-led guide for helping a software organization, or a Corporate IT function that builds software, adopt AI assistance across its software development lifecycle.
 
 This repository is about changing how work moves through the SDLC, not merely selecting an AI product. It offers three horizons that help an organization find its own path: build fluency first, make context trustworthy where it matters, and engineer harnesses only for workflows that have earned the investment.
 
+**A note on the name.** An *AI-native SDLC* is the destination: a lifecycle where assistance is part of how work moves rather than a tool individuals reach for. *AI-assisted work* is what happens at every horizon along the way, including the last one. The distinction matters because advancement here is gated on evidence, and describing a practice as AI-native asserts a position that no evidence has established. The [journey guide](docs/journey-to-ai-native-sdlc.md#an-ai-native-sdlc-is-the-destination-not-the-starting-position) defines both terms.
+
 ## Start Here
 
 1. Use [finding your organization's path](docs/finding-your-path.md) to map the work, ownership, handoffs, and friction that matter locally.
-2. Read the [journey guide](docs/journey-to-ai-assisted-sdlc.md) and name an accountable sponsor and adoption lead.
+2. Read the [journey guide](docs/journey-to-ai-native-sdlc.md) and name an accountable sponsor and adoption lead.
 3. Establish a baseline for one or two volunteer teams: delivery flow, quality, developer experience, risk posture, and current AI use.
 4. Charter a small short-term experiment around real work with clear measures of success.
 5. Move forward only when evidence shows that the current horizon is repeatable, safe, and useful.
@@ -37,7 +39,7 @@ Engineering leaders, Corporate IT leaders, staff engineers, platform teams, secu
 The repository contains journey guides, governance guidance, readiness assessments, and reusable templates. It deliberately complements agent and prompt libraries by focusing on the organizational conditions required for responsible use.
 
 - [Finding your organization's path](docs/finding-your-path.md): map your SDLC flow, capability ownership, handoffs, friction, and candidate opportunities.
-- [Journey to AI-Assisted SDLC](docs/journey-to-ai-assisted-sdlc.md): the horizon model, evidence gates, measures, and accountabilities.
+- [Journey to AI-Native SDLC](docs/journey-to-ai-native-sdlc.md): the horizon model, evidence gates, measures, and accountabilities.
 - [Short term: Simple AI integration](docs/short-term-simple-ai-integration.md): guided adoption, prompt engineering, and bounded experiments.
 - [Medium term: Context engineering](docs/medium-term-context-engineering.md): trusted, task-relevant knowledge for AI-assisted work.
 - [Long term: Harness engineering](docs/long-term-harness-engineering.md): repeatable AI-enabled workflows with controls and evaluations.
@@ -46,12 +48,38 @@ The repository contains journey guides, governance guidance, readiness assessmen
 
 ### Reusable Templates
 
+Each template is blank by design. [Worked examples](examples/) shows every one of them
+filled in.
+
 - [AI task brief](templates/ai-task-brief.md): a prompt-engineering aid for bounded, verifiable work.
 - [Pilot charter](templates/pilot-charter.md): hypothesis, boundaries, measures, and decision record for a short-term experiment.
 - [Context map](templates/context-map.md): ownership, freshness, access, and delivery design for medium-term knowledge work.
 - [Harness design review](templates/harness-design-review.md): task contract, controls, operations, and approvals for a long-term harness.
 - [SDLC opportunity map](templates/sdlc-opportunity-map.md): map one real flow of work and select a safe next opportunity.
 - [Evaluation record](templates/evaluation-record.md): a repeatable evidence record for AI-assisted workflows and harnesses.
+
+### Worked Examples
+
+[examples/](examples/) follows one fictional organization through all three horizons. The
+artifacts chain: an opportunity map selects a pilot, the pilot's review relocates the
+constraint to context, the context work qualifies a workflow for a harness, and the
+harness fails its first gate for reasons its evaluation set could not have predicted.
+
+Two results are deliberately negative, because those are the shapes teams most need to
+recognize: a pilot whose headline metric barely moves but which succeeds by locating the
+real constraint, and a harness that passes its curated evaluation and fails on live traffic.
+
+### Putting It Into Practice
+
+The horizon guides name no vendor. These documents show one concrete instantiation.
+
+- [Reference implementation: Claude Code](docs/claude-code-reference-implementation.md): how the three horizons map onto repository instructions, skills, agents, settings, and evaluation sets — and where the analogy breaks.
+- [Adopting an external skill library](docs/skill-library-integration.md): evaluating, scoping, and converting a third-party agent or skill library, with [tools/install-skills.py](tools/install-skills.py) as working tooling.
+
+This repository is itself set up this way. [CLAUDE.md](CLAUDE.md) is a worked repository-instructions
+context product, [.claude/skills/](.claude/skills/) holds five skills that operate the
+templates above, and [.claude/agents/](.claude/agents/) holds a read-only reviewer that
+audits horizon claims against the journey gates.
 
 ## Contributing
 

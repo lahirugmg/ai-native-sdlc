@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Use this assessment to choose a responsible starting point for AI-assisted SDLC adoption. It is a structured conversation and evidence record, not a maturity score to rank teams or people.
+Use this assessment to choose a responsible starting point for AI-native SDLC adoption. It is a structured conversation and evidence record, not a maturity score to rank teams or people.
 
 Complete it with the proposed pilot owner, representative practitioners, and the partners responsible for security, privacy, platform, architecture, and delivery where appropriate. Record evidence and open questions, then reduce the scope or resolve gaps before the pilot begins.
 
@@ -126,4 +126,4 @@ Capture the following on one page for each proposed pilot:
 | Success, safety, and stop conditions |  |
 | Decision and review date |  |
 
-[Back to the repository overview](../README.md) | [Read the journey](../docs/journey-to-ai-assisted-sdlc.md)
+[Back to the repository overview](../README.md) | [Read the journey](../docs/journey-to-ai-native-sdlc.md)

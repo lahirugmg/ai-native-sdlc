@@ -2,7 +2,7 @@
 
 ## Start With the Work, Not the Tool
 
-A journey to AI-assisted SDLC should begin with how your organization already creates, changes, operates, and explains software. The path is not a maturity score or a mandatory sequence of vendors. It is a set of choices about where assistance can remove real friction while preserving the people, controls, and feedback loops that make delivery trustworthy.
+A journey to AI-native SDLC should begin with how your organization already creates, changes, operates, and explains software. The path is not a maturity score or a mandatory sequence of vendors. It is a set of choices about where assistance can remove real friction while preserving the people, controls, and feedback loops that make delivery trustworthy.
 
 Use this guide with a delivery team, Corporate IT group, or software organization to find a sensible starting point. It works whether the capability areas below are separate teams, a small group of people wearing multiple hats, or external partners. What matters is that someone owns the work and its quality gate.
 

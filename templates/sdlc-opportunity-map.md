@@ -1,6 +1,6 @@
 # SDLC Opportunity Map
 
-Use this template to find a practical next step on your journey to AI-assisted SDLC. Map one real feature, change, incident, or operational request. The point is to identify useful work and the evidence it needs, not to create an idealized process diagram.
+Use this template to find a practical next step on your journey to AI-native SDLC. Map one real feature, change, incident, or operational request. The point is to identify useful work and the evidence it needs, not to create an idealized process diagram.
 
 ## Flow of Work
 
@@ -50,4 +50,4 @@ Use the following guide when choosing a horizon:
 
 Use the [experiment charter](pilot-charter.md) to define the work in detail, then revisit this map after the review. Evidence may confirm the next horizon, reveal a missing foundation, or show that the original workflow is not worth automating.
 
-[Finding your organization's path](../docs/finding-your-path.md) | [Journey to AI-Assisted SDLC](../docs/journey-to-ai-assisted-sdlc.md)
+[Finding your organization's path](../docs/finding-your-path.md) | [Journey to AI-Native SDLC](../docs/journey-to-ai-native-sdlc.md)

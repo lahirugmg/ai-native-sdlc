@@ -153,4 +153,4 @@ If the team cannot meet these conditions, continue short-term work with a narrow
 
 When participants repeatedly need current architecture, codebase, policy, product, or operational knowledge that is scattered or hard to trust, move to [Medium term: Context engineering](medium-term-context-engineering.md).
 
-[Back to the journey](journey-to-ai-assisted-sdlc.md)
+[Back to the journey](journey-to-ai-native-sdlc.md)

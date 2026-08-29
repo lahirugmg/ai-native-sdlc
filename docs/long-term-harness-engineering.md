@@ -162,4 +162,4 @@ Scale a harness beyond its initial team when it demonstrates:
 
 The long term does not end the journey. It establishes a repeatable way to build, evaluate, operate, and retire AI-enabled SDLC capabilities as organizational needs and technology evolve.
 
-[Back to Medium term](medium-term-context-engineering.md) | [Back to the journey](journey-to-ai-assisted-sdlc.md)
+[Back to Medium term](medium-term-context-engineering.md) | [Back to the journey](journey-to-ai-native-sdlc.md)

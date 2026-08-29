@@ -27,7 +27,7 @@ Use this record to establish a baseline, compare a changed workflow, and preserv
 ## Results
 
 | Dimension | Measure or rubric | Baseline | Variant | Interpretation |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | Task quality |  |  |  |  |
 | Grounding and source use |  |  |  |  |
 | Safety and policy behavior |  |  |  |  |

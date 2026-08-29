@@ -1,4 +1,4 @@
-# AI-Assisted SDLC Experiment Charter
+# AI-Native SDLC Experiment Charter
 
 Use this charter to frame a small, evidence-gated pilot. Keep it to one or two pages and update it when a material assumption changes.
 
